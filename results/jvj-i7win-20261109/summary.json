@@ -1,0 +1,115 @@
+{
+ "session": "jvj-i7win-20261109",
+ "cells": {
+  "node-bcryptjs": {
+   "rounds": 5,
+   "median": {
+    "rps": 23.844,
+    "cores_busy": 0.995,
+    "p50_ms": 3027.992,
+    "p99_ms": 4528.11,
+    "mem_mb_median": 61.8,
+    "health_p50_ms": 5931.5,
+    "ready_s": 0.591,
+    "threads": 11
+   },
+   "rps_by_round": [
+    23.84,
+    23.89,
+    23.84,
+    22.39,
+    23.89
+   ],
+   "plain_rps": 23.89,
+   "plain_vs_recorded": 0.0019
+  },
+  "node-bcrypt": {
+   "rounds": 5,
+   "median": {
+    "rps": 97.201,
+    "cores_busy": 3.974,
+    "p50_ms": 679.272,
+    "p99_ms": 683.278,
+    "mem_mb_median": 60.9,
+    "health_p50_ms": 0.62,
+    "ready_s": 0.591,
+    "threads": 15
+   },
+   "rps_by_round": [
+    97.28,
+    97.1,
+    97.19,
+    97.37,
+    97.2
+   ],
+   "plain_rps": 97.14,
+   "plain_vs_recorded": -0.0006
+  },
+  "node-bcrypt-6": {
+   "rounds": 5,
+   "median": {
+    "rps": 143.27,
+    "cores_busy": 5.921,
+    "p50_ms": 455.809,
+    "p99_ms": 473.503,
+    "mem_mb_median": 62.4,
+    "health_p50_ms": 0.6,
+    "ready_s": 0.594,
+    "threads": 17
+   },
+   "rps_by_round": [
+    142.82,
+    143.27,
+    143.24,
+    143.65,
+    143.6
+   ],
+   "plain_rps": 143.71,
+   "plain_vs_recorded": 0.0031
+  },
+  "spring": {
+   "rounds": 5,
+   "median": {
+    "rps": 133.874,
+    "cores_busy": 5.914,
+    "p50_ms": 487.4,
+    "p99_ms": 999.413,
+    "mem_mb_median": 195.8,
+    "health_p50_ms": 0.78,
+    "ready_s": 1.682,
+    "threads": 99
+   },
+   "rps_by_round": [
+    133.87,
+    134.23,
+    132.49,
+    134.76,
+    133.52
+   ],
+   "plain_rps": 134.18,
+   "plain_vs_recorded": 0.0023
+  },
+  "spring-1core": {
+   "rounds": 5,
+   "median": {
+    "rps": 22.943,
+    "cores_busy": 0.973,
+    "p50_ms": 2773.194,
+    "p99_ms": 6608.805,
+    "mem_mb_median": 272.9,
+    "health_p50_ms": 1.12,
+    "ready_s": 4.396,
+    "threads": 89
+   },
+   "rps_by_round": [
+    22.7,
+    22.93,
+    23.03,
+    23.09,
+    22.94
+   ],
+   "plain_rps": 23.24,
+   "plain_vs_recorded": 0.0131
+  }
+ }
+}

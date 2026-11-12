@@ -1,0 +1,1 @@
+node v24.13.0, bcrypt, UV_THREADPOOL_SIZE=default (4), availableParallelism 6

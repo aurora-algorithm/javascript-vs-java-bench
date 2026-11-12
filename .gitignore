@@ -1,0 +1,8 @@
+node/node_modules/
+java/target/
+build/
+tools/apache-maven-*/
+.cache/
+__pycache__/
+*.db
+.DS_Store

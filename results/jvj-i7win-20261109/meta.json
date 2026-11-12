@@ -1,0 +1,36 @@
+{
+  "versions": {
+    "node": "v24.13.0",
+    "npm_packages": {
+      "bcrypt": "6.0.0",
+      "bcryptjs": "3.0.3",
+      "express": "5.2.1"
+    },
+    "java": "openjdk version \"25.0.5\" 2026-10-20 LTS\nOpenJDK Runtime Environment Temurin-25.0.5+8 (build 25.0.5+8-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.5+8 (build 25.0.5+8-LTS, mixed mode, sharing)",
+    "spring_boot": "Spring-Boot-Version: 4.1.2",
+    "oha": "oha 1.16.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)"
+  },
+  "rounds": 5,
+  "server_cpus": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "oha_cpus": [
+    12,
+    13
+  ],
+  "connections": 64,
+  "warm_s": 15,
+  "measure_s": 20,
+  "seconds_scale": 1.0,
+  "users_sha256": "ebcb9c7160f7530d71cc439858486f5e54b4a12cc39c024ccd572fd00a1e6bd6",
+  "body": "{\"email\":\"user7@example.com\",\"password\":\"password-7\"}",
+  "started": "Mon Nov  9 23:56:09 2026"
+}
